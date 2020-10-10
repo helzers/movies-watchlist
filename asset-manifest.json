@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/movie-watch-list/static/css/main.dc6419d6.chunk.css",
-    "main.js": "/movie-watch-list/static/js/main.d7508692.chunk.js",
-    "main.js.map": "/movie-watch-list/static/js/main.d7508692.chunk.js.map",
-    "runtime-main.js": "/movie-watch-list/static/js/runtime-main.30436f4c.js",
-    "runtime-main.js.map": "/movie-watch-list/static/js/runtime-main.30436f4c.js.map",
-    "static/js/2.8972cb95.chunk.js": "/movie-watch-list/static/js/2.8972cb95.chunk.js",
-    "static/js/2.8972cb95.chunk.js.map": "/movie-watch-list/static/js/2.8972cb95.chunk.js.map",
-    "index.html": "/movie-watch-list/index.html",
-    "precache-manifest.5ccde46d6bfae0423714629b71990cea.js": "/movie-watch-list/precache-manifest.5ccde46d6bfae0423714629b71990cea.js",
-    "service-worker.js": "/movie-watch-list/service-worker.js",
-    "static/css/main.dc6419d6.chunk.css.map": "/movie-watch-list/static/css/main.dc6419d6.chunk.css.map",
-    "static/js/2.8972cb95.chunk.js.LICENSE.txt": "/movie-watch-list/static/js/2.8972cb95.chunk.js.LICENSE.txt"
+    "main.css": "/movies-watchlist/static/css/main.dc6419d6.chunk.css",
+    "main.js": "/movies-watchlist/static/js/main.cd74f441.chunk.js",
+    "main.js.map": "/movies-watchlist/static/js/main.cd74f441.chunk.js.map",
+    "runtime-main.js": "/movies-watchlist/static/js/runtime-main.e226f0bb.js",
+    "runtime-main.js.map": "/movies-watchlist/static/js/runtime-main.e226f0bb.js.map",
+    "static/js/2.645d12e6.chunk.js": "/movies-watchlist/static/js/2.645d12e6.chunk.js",
+    "static/js/2.645d12e6.chunk.js.map": "/movies-watchlist/static/js/2.645d12e6.chunk.js.map",
+    "index.html": "/movies-watchlist/index.html",
+    "precache-manifest.4328afb605af33e2f0d01b60ffa8c591.js": "/movies-watchlist/precache-manifest.4328afb605af33e2f0d01b60ffa8c591.js",
+    "service-worker.js": "/movies-watchlist/service-worker.js",
+    "static/css/main.dc6419d6.chunk.css.map": "/movies-watchlist/static/css/main.dc6419d6.chunk.css.map",
+    "static/js/2.645d12e6.chunk.js.LICENSE.txt": "/movies-watchlist/static/js/2.645d12e6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.30436f4c.js",
-    "static/js/2.8972cb95.chunk.js",
+    "static/js/runtime-main.e226f0bb.js",
+    "static/js/2.645d12e6.chunk.js",
     "static/css/main.dc6419d6.chunk.css",
-    "static/js/main.d7508692.chunk.js"
+    "static/js/main.cd74f441.chunk.js"
   ]
 }
