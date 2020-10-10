@@ -1,0 +1,61 @@
+@import '../../Variables.scss';
+
+.movieContainer {
+    @include textStyle; 
+    @include movieContainer;
+
+    display: flex;
+    flex-direction: column;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        justify-self: center;
+        box-shadow: $shadow $greyShadow;
+    }
+    .searchMovieDetails {
+        @include movieCardDetails;
+
+        display: flex;
+        flex-direction: column;
+        bottom: 80px;
+        -webkit-font-smoothing: antialiased;
+        h1 {
+            padding: 5px;
+        }
+    }
+    .long {
+        height: 11vh;
+    }
+    .very {
+        height: 15vh;
+    }
+
+    .movieAddButton {
+        height: 80px;
+        justify-self: flex-end;
+        bottom: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        button {
+            @include btnColorGreen;
+            @include btnFormat;
+        
+            margin-bottom: 5%;
+            margin-top: 5%;
+            bottom: 0;
+
+            outline: none;
+            &:focus{
+                outline: none;
+            }
+        
+        }
+    }
+    
+}
+
+
+

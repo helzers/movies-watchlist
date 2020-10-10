@@ -1,0 +1,96 @@
+
+//Colours
+$darkGreen: #4A707A;
+$midGreen: #7697A0;
+$lightGreen: #94B0B7;
+$grey: #C2CBC5;
+$lightGrey: #DDDDDA;
+$lightRed: #D16565;
+$red: #b53f3f;
+$darkGrey: #8F8F8F;
+$BG: #F4F4F4;
+
+
+$btnShadow: rgba(118, 151, 160, 0.6);
+$darkBtnShadow: rgba(74, 112, 122, 0.8);
+$greyShadow: rgba(0,0,0, 0.2);
+$darkGreyShadow: rgba(143, 143, 143, 0.9);
+$redShadow: rgba(209, 101, 101, 0.6);
+$darkRedShadow: rgba(181, 63, 63, 0.9);
+
+$shadow: 3px 6px 6px;
+$pressedShadow: 3px 4px 6px;
+
+@mixin textStyle {
+    font-family: commuters-sans, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+@mixin btnColorGreen {
+    background-color: $midGreen;
+    color: white;
+    box-shadow: $shadow $btnShadow;
+
+    &:hover {
+        background-color: $darkGreen;
+    }
+
+    &:active {
+        background-color: $darkGreen;
+        box-shadow: $pressedShadow $darkBtnShadow;
+    }
+}
+
+@mixin btnFormat {
+    font-size: 25px;
+    height: 8vh;
+    border-radius: 30px;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+    &:active {
+        transform: translateY(4px);
+    }
+}
+
+@mixin movieContainer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40vh;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+@mixin movieCardDetails {
+    position: absolute;
+    max-width: 40vh;
+    background-color: $darkGreyShadow;
+    height: 8vh;
+    overflow: hidden;
+    transition: height 2s ease;
+    -webkit-transition: height 2s ease;
+    -moz-transition: height 2s ease;
+
+    h1, h2 {
+        font-size: 20px;
+        color: white;
+    }
+    p {
+        font-size: 14px;
+        text-align: left;
+        padding: 5%;
+        color: white;
+    }
+
+    &:hover{
+        height: auto;
+    }
+}

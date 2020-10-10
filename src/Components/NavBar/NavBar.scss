@@ -1,0 +1,48 @@
+@import '../../Variables.scss';
+
+.nav-items{
+    @include textStyle;
+
+    position: fixed;
+    display: flex;
+    list-style-type: none;
+    min-height: 10vh;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+    background-color: $darkGreen;
+    box-shadow: 0px 4px 6px $darkBtnShadow;
+    a {
+        font-size: 25px;
+        padding: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+        text-decoration: none;
+        color: $lightGrey;
+        &:hover {
+            color: white;
+        }
+    }
+    .active {
+        color: white;
+        border-bottom: 1px solid white;
+        padding-bottom: 0;
+    }
+    .nav-bar-title{
+        font-family: all-round-gothic, sans-serif;
+        margin: 0;
+        font-weight: 400;
+        font-size: 36px;
+        font-style: normal;
+        color: $lightGrey;
+        text-shadow: 3px 6px 2px $greyShadow;
+    }
+    
+}
+

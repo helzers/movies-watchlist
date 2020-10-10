@@ -1,0 +1,73 @@
+@import '../../Variables.scss';
+
+.list-item-container{
+    @include textStyle; 
+    @include movieContainer;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        justify-self: center;
+        box-shadow: $shadow $greyShadow;
+    }
+    
+    .movieDetails {
+        @include movieCardDetails;
+
+        bottom: 180px;
+    }
+
+    .movieButtons {
+
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+
+        .watched-btn {
+            @include btnColorGreen;
+            @include btnFormat;
+
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+
+        .delete-btn {
+            @include btnFormat;
+
+            background-color: $lightRed;
+            color: white;
+            box-shadow: $shadow $redShadow;
+            margin-bottom: 5%;
+            margin-top: 5%;
+
+            &:hover {
+                background-color: $red;
+            }
+
+            &:active {
+                background-color: $red;
+                box-shadow: $pressedShadow $darkRedShadow;
+            }
+        }
+    }
+    
+}
+
+.watched {
+    img {
+        opacity: 0.4;
+    }
+    
+    .movieDetails {
+        h2 {
+            text-decoration: line-through;
+            color: $lightGrey;
+        }
+        p {
+            color: $lightGrey;
+        }
+    }
+}
+
+
+

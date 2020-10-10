@@ -1,0 +1,44 @@
+@import '../../Variables.scss';
+
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+
+.watch-list-container {
+    @include textStyle;
+
+    min-height: 90vh;
+
+    .title-select{
+
+        display: flex;
+        justify-content: space-between;
+
+        .placeholder-span {
+            width: 222px;
+        }
+
+        h1 {
+            padding: 1%;
+            color: $darkGrey;
+        }
+
+        .select {
+            width: 15vw;
+            align-self: center;
+            margin-right: 30px;
+        }
+        
+    }
+    
+
+    .my-movies {
+        display: flex;
+        flex-flow: row wrap;
+        overflow: hidden;
+        justify-content: space-evenly;
+    }
+}

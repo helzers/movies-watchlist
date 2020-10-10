@@ -1,0 +1,17 @@
+@import '../../Variables.scss';
+
+.search-page {
+    h2{
+        @include textStyle;
+
+        color: $darkGrey;
+    }
+}
+
+
+.movieResults {
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    justify-content: space-evenly;
+}

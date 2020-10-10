@@ -1,0 +1,25 @@
+@import '../../Variables.scss';
+
+.footer-container{
+    padding: 1%;
+    background-color: $darkGreen;
+    @include textStyle;
+
+    color: $lightGrey;
+    font-size: 20px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        
+    img {
+        max-width: 25%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footer-details {
+        justify-items: center;
+    }
+}
