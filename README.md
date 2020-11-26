@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Online Movie Watch List
 
-In the project directory, you can run:
+This project was created using ReactJS, SASS and The Movie Database API. It is intended as a space where you can search for any movie, new or old,<br/>
+and save the ones you wish to watch. The users list is stored in local storage, with each movie having a status of watched or unwatched.<br/>
+This is somewhat of a work in process as there are some bugs in the website.
 
-### `npm start`
+You can view this website at the following link:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### https://helzers.github.io/movies-watchlist/#/
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<br/>
 
-### `npm test`
+## AdobeXD
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I used AdobeXD to create high fidelity mock ups of the website before I began implementation.<br/>
+You can view the project **[here](https://xd.adobe.com/view/a602df5b-644a-429b-8187-bbddc39b7579-f351/grid/)**<br/>
 
-### `npm run build`
+<br/>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Home Page
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+This page can be found on first load of the website, or via the 'Search' link in the NavBar. <br/>
+The home page of this website features the 20 most searched for movies on The Movie Database website and through their API.<br/>
+This is intended as a way for users to discover new movies the may be interested in.<br/>
+They can hover over each movie card to reveal a description they can read to see if they're interested.<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
 
-### `npm run eject`
+## Search Results Page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This page is found when a user enters and submits a search into the bar featured on the Home Page.<br/>
+This shows the top 20 movies whose title best matches the users search.<br/>
+There's some new text in this page to remind the user exactly what they searched. <br/>
+This page also has the hover to reveal movie description feature, in case a user finds a new movie through this method.<br/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## My List Page
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This page can be found through the 'My List' link on the NavBar.<br/>
+This features all the movies the user has saved to their watch list.<br/>
+These can be filtered between 'All', 'Watched' and 'Unwatched' using the dropdown.<br/>
+Movies status can be changed via the 'Watched' button under each movie.<br/>
+The movies with a status of watched have a greyed out poster and their title crossed out.<br/>
+Movies can also be removed from the list using the 'Delete' button under each movie.<br/>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
